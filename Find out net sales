@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+float grosssales, discount, netsales;
+Printf("\n Enter the grosssales:");
+Scanf("%f", &grosssales);
+if (grosssales>20000)
+{
+discount= grosssales*15/100;
+Printf("\n\n Discount of the grosssales:%f" discount);
+netsales= grosssales-discount;
+Printf("\n\n\n The netsales:%f", netsales);
+}
+else
+{
+if(grosssales>10000)
+{
+Discount= grosssales*10/100;
+Printf("\n\n Discount of the grosssales:%f", discount);
+netsales= gross sales-discount;
+Printf("\n\n\n The netsales:%f", netsales);
+}
+else
+{
+discount=grosssales*5/100;
+Printf("\n\n Discount of the grosssales:%f", discount);
+netsales=grosssales-discount;
+printf("\n\n\n The netsales:%f", netsales);
+}
+}
+}
