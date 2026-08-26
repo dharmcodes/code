@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+
+{
+float a,b,c,d;
+printf("\n Enter gross salary:");
+scanf("%f", &a);
+printf("\n\n the allowance: %f", b=a*10/100);
+printf("\n\n\n The deduction: %f", c=a*3/100);
+printf("\n\n\n\n The net salary: %f", d=a+b+c); 
