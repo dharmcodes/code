@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  float g,d,s;
+Printf ("\n enter the gross sales:");
+Scanf ("%f", &g);
+Printf ("\n\n discount of the gross sales: %f", d=g*10/100);
+Printf ("\n\n\n the net sales: %f", s=g-d);
+}
