@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c;
+Printf("Enter two values:");
+Scanf("%f %f", &a, &b);
+c=a;
+a=b;
+b=c;
+Printf("After swap:%f, \n b=%f \n",a,b);
+}
