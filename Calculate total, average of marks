@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main ()
+{
+Float mathematics, chemistry, biology, total, average;
+Printf("\n Enter the marks of mathematics:");
+Scanf("%f", & mathematics);
+Printf("\n\n Enter the marks of chemistry:");
+Scanf("%f", & chemistry);
+printf("\n\n Enter the marks of biology:");
+Scanf("%f", & biology);
+total= mathematics+chemistry+biology;
+Printf("\n\n The total of three subjects: %f", total);
+average = total/3;
+Printf("\n\n The average of three subjects: %f", average);
+if(mathematics<35||chemistry<35||biology<35)
+{ 
+Printf("\n\n Results: Fail(less than 35 in any one)");
+}
+else
+{
+if(average>=70)
+{
+Printf("\n Result is Distinction");
+} 
+else
+if(average>=60)
+{
+Printf("\n Result is First class");
+}
+else
+if(average>=50)
+{ 
+Printf("\n Result is Second class");
+}
+else
+if(average>=35)
+{
+Printf("\n Result is third class");
+}
+else
+{
+Printf("\n Result is Fail");
+}
+}
+}
